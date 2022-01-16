@@ -41,7 +41,49 @@ nav a{
 .fa-arrow-right{
     margin-left: 8px;
 }
-section{
+.start{
     display:flex;
     justify-content: space-between;
+}
+.journey{
+    height: 270px;
+    width: 582px;
+}
+#products{
+    height: 60.9px;
+    width: 505px;
+}
+#camera{
+    width: 440px;
+    height: 414px;
+    margin-top: 50px;
+    padding: 33px;
+    background-image: url("images/Circle design.svg");
+    background-size: 475px;
+    background-repeat: no-repeat;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin: 165px 100px 165px 69px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding: 36px 62px;
+    align-items: center;
+}
+#popular{
+    display: flex;
+    justify-content: center;
+    font-weight: 600px;
+    font-size: 28px;
+}
+footer{
+    background-color: #0A0826;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.social a{
+    text-decoration: none;
+    color: white;
 }
