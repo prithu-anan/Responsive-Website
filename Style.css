@@ -1,0 +1,47 @@
+body{
+    margin-top: 87px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+header{
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 34px;
+    color: #3A3A3A;
+}
+#start{
+    font-size: 52px;
+    margin-top: 145.8px;
+    margin-bottom: 16px;
+}
+#products{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 26.1px;
+}
+.prebook{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+section{
+    display:flex;
+    justify-content: space-between;
+}
