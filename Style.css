@@ -60,7 +60,7 @@ nav a{
     height: 3em;
     width: 25em;
 }
-#camera{
+.start img{
     width: 34em;
     height: 32em;
     margin-top: 4em;
@@ -171,4 +171,14 @@ footer{
     padding: 0.25em 0.5em;
     margin: 0.5em;
     border-radius: 5em;
+}
+@media only screen and (max-width:688px) {
+    .start{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .article{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
